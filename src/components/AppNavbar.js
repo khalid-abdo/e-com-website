@@ -17,7 +17,7 @@ function Appnavbar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Link to={'/'} className='nav-link'>Proudcts</Link>
-                            <Link to={'/cart'} className='nav-link'>Carttt-{cart.length}</Link>
+                            <Link to={'/cart'} className='nav-link'>Carcartt-{cart.length}</Link>
                            
                         </Nav>
                     </Navbar.Collapse>
