@@ -10,7 +10,7 @@ function Appnavbar() {
     const cart =useSelector(state=>state.Cart)
     return (
         <>
-            <Navbar fixed='top' expand="lg" className="bg-body-tertiary">
+            <Navbar fixed='top' expand="lg" className="bg-body-tertiary sticky-top">
                 <Container>
                     <Link to={'/'} className='navbar-brand'>CartApp</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
