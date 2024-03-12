@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Appnavbar />
+      <Proudcts />
       <Routes>
         <Route path='/' element={<Proudcts />} />
         <Route path='cart' element={<Cart/>} />
